@@ -5,4 +5,4 @@ This is an application in which you can visualize pathfinding algorithms (with s
 
 ## Example
 
-![Example/example.gif)
+![Example](resources/example.gif)
