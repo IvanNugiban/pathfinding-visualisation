@@ -105,7 +105,7 @@ namespace engine {
 			startButton->getRenderer()->setRoundedBorderRadius(50);
 			startButton->getRenderer()->setBackgroundColorHover(sf::Color::Color(0, 255, 0, 150));
 			startButton->getRenderer()->setBackgroundColorDown(sf::Color::Color(0, 255, 0, 120));
-			startButton->setImage("../resources/StartIcon.png");
+			startButton->setImage("resources/StartIcon.png");
 			startButton->onClick(&onStartButtonClick);
 			layout->add(startButton);
 
@@ -162,7 +162,7 @@ namespace engine {
 
 		void updateButton()
 		{
-			startButton->setImage(inProcess ? "../resources/StopIcon.png" : "../resources/StartIcon.png");
+			startButton->setImage(inProcess ? "resources/StopIcon.png" : "resources/StartIcon.png");
 		}
 
 		void render()

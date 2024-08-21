@@ -23,7 +23,7 @@ namespace engine {
 			engine::ui::gui.setWindow(*windowPtr);
 
 			// Set icon
-			icon.loadFromFile("../resources/Icon.png");
+			icon.loadFromFile("resources/Icon.png");
 			windowPtr->setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
 		}
 

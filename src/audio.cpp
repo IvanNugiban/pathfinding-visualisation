@@ -8,7 +8,7 @@ namespace engine {
 
 		void initialize()
 		{
-			buffer.loadFromFile("../resources/beep.wav");
+			buffer.loadFromFile("resources/beep.wav");
 			sound.setBuffer(buffer);
 		}
 
